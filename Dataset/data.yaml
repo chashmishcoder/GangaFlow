@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['greenery', 'house', 'water']
+
+roboflow:
+  workspace: code-n4z0n
+  project: ganga-project
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/code-n4z0n/ganga-project/dataset/3
